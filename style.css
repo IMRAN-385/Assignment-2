@@ -1,0 +1,21 @@
+ <main class="main">
+    <div class="container">\
+     +
+      <div  class="hero">
+        <img src="./B13-A02-TechWave/assets/microphone.png" alt="">
+      </div>
+      <div>
+        <h1>TechWave</h1>
+        <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+      </div>
+
+      <div>
+        <button>Listen on Spotify</button>
+      </div>
+
+      <div>
+        <button>Subscribe</button>
+      </div>
+      
+    </div>
+  </main>
