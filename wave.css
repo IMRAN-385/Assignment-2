@@ -219,6 +219,143 @@
     color: white;
   }
 
+  .why{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    background-color: #230E3D;
+    padding: 120px 200px 40px 200px;
+  }
+  
+  .card{
+    display: grid;
+    justify-content: center;
+    gap:20px;
+    background-color: #230E3D;
+    padding: 0 200px 120px 200px;
+    grid-template-areas: 
+        "first second second"
+        "first third third"
+        "four four five";
+  }
+  .first{
+    grid-area: first;
+    padding: 32px 32px;
+    background-color: #533c7285;
+    border: none;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .first img{
+    height:50px;
+    width: 50px;
+    padding-top: 65px;
+  }
+  .first h4{
+    font-size: 24px;
+    font-weight:bold ;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .first p{
+    color: rgb(158, 155, 155);
+  }
+
+  .second{
+    grid-area: second;
+    padding: 32px 32px;
+    background-color: #533c7285;
+    border: none;
+    border-radius: 40px;
+    
+  }
+  .second img{
+    height:55px;
+    width: 40px;
+  }
+  .second h4{
+    font-size: 24px;
+    font-weight:bold ;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .second p{
+    color: rgb(158, 155, 155);
+  }
+  .third{
+    grid-area: third;
+    padding: 32px 32px;
+    background-color: #533c7285;
+    border: none;
+    border-radius: 40px;
+    
+  }
+  .third img{
+    height:55px;
+    width: 55px;
+  }
+  .third h4{
+    font-size: 24px;
+    font-weight:bold ;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .third p{
+    color: rgb(158, 155, 155);
+  }
+  .four{
+    grid-area: four;
+    padding: 32px 32px;
+    background-color: #533c7285;
+    border: none;
+    border-radius: 40px;
+    
+  }
+  .four img{
+    height:50px;
+    width: 55px;
+  }
+  .four h4{
+    font-size: 24px;
+    font-weight:bold ;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .four p{
+    color: rgb(158, 155, 155);
+  }
+  .five{
+    grid-area: five;
+    padding: 32px 32px;
+    background-color: #533c7285;
+    border: none;
+    border-radius: 40px;
+    
+  }
+  .five img{
+    height:50px;
+    width: 55px;
+  }
+  .five h4{
+    font-size: 24px;
+    font-weight:bold ;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .five p{
+    color: rgb(158, 155, 155);
+    
+  }
 
 
 
