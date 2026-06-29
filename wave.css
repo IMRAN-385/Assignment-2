@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
 
-
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 img { display: block; max-width: 100%; }
 ul  { list-style: none; }
 button { cursor: pointer; font-family: inherit; }
 .inter { font-family: "Inter", sans-serif; overflow-x: hidden; }
-
 
 :root {
   --bg-dark:  #1A0B2E;
@@ -35,7 +33,6 @@ button { cursor: pointer; font-family: inherit; }
 
 .color { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
 
-
 .nav-toggle-input { display: none; }
 
 .hamburger {
@@ -56,11 +53,9 @@ button { cursor: pointer; font-family: inherit; }
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-
 .nav-toggle-input:checked ~ .hamburger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
 .nav-toggle-input:checked ~ .hamburger span:nth-child(2) { opacity: 0; }
 .nav-toggle-input:checked ~ .hamburger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-
 
 .nav-menu {
   display: none;
@@ -87,7 +82,6 @@ button { cursor: pointer; font-family: inherit; }
 .list {
   display: flex;
   flex-direction: column;
-  padding-right: 480px;
   gap: 16px;
   color: var(--white);
   font-size: 15px;
@@ -104,7 +98,6 @@ button { cursor: pointer; font-family: inherit; }
 }
 .btn:hover { opacity: 0.88; transform: scale(1.03); }
 .btn img { width: 16px; height: 16px; }
-
 
 .hero {
   background: var(--bg-dark);
@@ -134,7 +127,6 @@ button { cursor: pointer; font-family: inherit; }
   max-width: 900px;
   margin: 0 auto;
 }
-
 
 .hero-visual {
   position: relative;
@@ -187,7 +179,6 @@ button { cursor: pointer; font-family: inherit; }
   object-fit: contain;
 }
 
-
 .hero-text {
   margin-top: 20px;
   display: flex;
@@ -221,7 +212,6 @@ button { cursor: pointer; font-family: inherit; }
 .bttn:hover { background: var(--green); color: var(--bg-dark); }
 .bttn img { width: 17px; height: 17px; }
 
-
 .about {
   background: var(--bg-dark);
   padding: 60px 20px;
@@ -232,7 +222,6 @@ button { cursor: pointer; font-family: inherit; }
 .about-top p  { color: var(--white); font-size: clamp(13px,2vw,16px); line-height: 1.75; max-width: 780px; margin: 0 auto 32px; }
 
 .divider { border-top: 1px solid var(--border); margin-bottom: 32px; }
-
 
 .stats {
   display: grid;
@@ -248,12 +237,10 @@ button { cursor: pointer; font-family: inherit; }
 .stat h3 { color: var(--green); font-size: clamp(26px,6vw,48px); font-weight: 900; }
 .stat p  { color: var(--white); font-size: clamp(11px,1.8vw,14px); margin-top: 5px; }
 
-
 .why-section { background: var(--bg-card); padding: 60px 20px; }
 
 .why-section > h2 { color: var(--white); font-size: clamp(22px,5vw,44px); font-weight: 700; text-align: center; margin-bottom: 28px; }
 
-/* single column mobile */
 .cards { display: grid; grid-template-columns: 1fr; gap: 14px; max-width: 1100px; margin: 0 auto; }
 
 .card { background: var(--bg-glass); border-radius: 20px; padding: 22px; }
@@ -261,12 +248,10 @@ button { cursor: pointer; font-family: inherit; }
 .card h4  { color: var(--white); font-size: clamp(15px,2.5vw,20px); font-weight: 700; margin-bottom: 8px; }
 .card p   { color: var(--muted); font-size: clamp(12px,1.8vw,14px); line-height: 1.6; }
 
-
 .episodes { background: var(--bg-dark); padding: 60px 20px; }
 
 .episodes h2 { color: var(--white); font-size: clamp(22px,5vw,44px); font-weight: 700; text-align: center; margin-bottom: 28px; }
 
-/* single column mobile */
 .episodes-grid { display: grid; grid-template-columns: 1fr; gap: 16px; max-width: 1100px; margin: 0 auto; }
 
 .ep-card { background: var(--bg-card); border-radius: 16px; overflow: hidden; }
@@ -274,7 +259,6 @@ button { cursor: pointer; font-family: inherit; }
 .ep-card h4  { color: var(--white); font-size: clamp(14px,2vw,17px); font-weight: 700; padding: 14px 14px 6px; }
 .ep-card p   { color: var(--muted); font-size: clamp(12px,1.8vw,14px); padding: 0 14px 10px; line-height: 1.55; }
 .dur         { display: block; color: var(--green); font-size: 12px; font-weight: 600; padding: 0 14px 14px; }
-
 
 .host { background: var(--bg-dark); padding: 60px 20px; }
 
@@ -293,7 +277,6 @@ button { cursor: pointer; font-family: inherit; }
 
 .socials { display: flex; gap: 8px; justify-content: center; }
 .si { width: 34px; height: 34px; background: var(--bg-glass); border-radius: 7px; display: flex; align-items: center; justify-content: center; color: var(--white); font-size: 13px; font-weight: 700; cursor: pointer; }
-
 
 .footer {
   background: var(--bg-dark);
@@ -323,8 +306,6 @@ button { cursor: pointer; font-family: inherit; }
 
 .footer-copy { color: var(--muted); font-size: 13px; text-align: center; }
 
-
-
 @media (min-width: 576px) {
   .hero-imgs { width: 300px; height: 300px; }
   .episodes-grid { grid-template-columns: 1fr 1fr; }
@@ -332,11 +313,9 @@ button { cursor: pointer; font-family: inherit; }
   .card--tall { grid-column: 1 / -1; }
 }
 
-
-
 @media (min-width: 992px) {
 
-  /* Navbar — hide hamburger, show inline */
+  
   .hamburger          { display: none; }
   .nav-toggle-input   { display: none; }
 
@@ -364,18 +343,18 @@ button { cursor: pointer; font-family: inherit; }
     font-size: 15px;
   }
 
-  /* Hero */
+  
   .hero-inner  { padding: 44px 60px 0; }
   .hero-imgs   { width: 340px; height: 340px; }
   .badge-text  { font-size: 13px; padding: 8px 18px; top: 6%; right: -5%; }
 
-  /* About */
+  
   .about { padding: 80px 60px; }
   .stats { grid-template-columns: repeat(4,1fr); max-width: 900px; }
   .stat  { border-bottom: none; border-right: 1px solid var(--border); }
   .stat:last-child { border-right: none; }
 
-  /* Why */
+  
   .why-section { padding: 80px 60px; }
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
@@ -383,20 +362,18 @@ button { cursor: pointer; font-family: inherit; }
   }
   .card--tall { grid-column: 1; grid-row: 1 / 3; }
 
-  /* Episodes */
+  
   .episodes { padding: 80px 60px; }
   .episodes-grid { grid-template-columns: repeat(3,1fr); }
 
-  /* Host */
+  
   .host { padding: 80px 60px; }
   .host-card { flex-direction: row; text-align: left; padding: 40px; gap: 36px; }
   .socials   { justify-content: flex-start; }
 
-  /* Footer — always centered */
+  
   .footer-inner { padding: 60px 60px 36px; gap: 28px; }
 }
-
-
 
 @media (min-width: 1200px) {
   .hero-inner { padding: 50px 100px 0; }
