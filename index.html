@@ -3,143 +3,165 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>TechWave Podcast</title>
   <link rel="stylesheet" href="./wave.css">
 </head>
 <body class="inter">
-  <header>
-    <nav class="nav">
-      <div class="navbar">
-        <h2>Tech<span class="color">Wave</span></h2>
-        <ul class="list">
-        <li>About</li>
-        <li>Episodes</li>
-        <li>Host</li>
-      </ul>
-      <button class="btn">
-        Subscribe<img src="./B13-A02-TechWave/assets/ArrowRight.png" alt=""></button>
-      </div>
+
+  
+  <header class="nav">
+    <div class="navbar">
+      <h2>Tech<span class="color">Wave</span></h2>
+
       
-    </nav>  
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <div class="nav-menu">
+        <ul class="list">
+          <li>About</li>
+          <li>Episodes</li>
+          <li>Host</li>
+        </ul>
+        <button class="btn">Subscribe <img src="./B13-A02-TechWave/assets/ArrowRight.png" alt=""></button>
+      </div>
+    </div>
   </header>
 
-  <main class="main">
-    <div class="container">
-      <div class="xyz"><img src="./B13-A02-TechWave/assets/hero-bg.png" alt=""></div>
-      <div class="xyy"><img src="./B13-A02-TechWave/assets/microphone.png" alt=""></div>
-      <div class="xzz"><img src="./B13-A02-TechWave/assets/hero-circle.png" alt=""></div>
-    </div>
-    <div class="mid">
-      <div class="content">
+  
+  <section class="hero">
+    <img class="hero-bg" src="./B13-A02-TechWave/assets/hero-bg.png" alt="">
+    <div class="hero-inner">
+      <div class="hero-visual">
+        <span class="badge-text">NEW</span>
+        <div class="hero-imgs">
+          <img class="hero-circle" src="./B13-A02-TechWave/assets/hero-circle.png" alt="">
+          <img class="hero-mic"    src="./B13-A02-TechWave/assets/microphone.png"  alt="">
+        </div>
+      </div>
+      <div class="hero-text">
         <h1>TechWave</h1>
         <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
-      </div>
-      <div class="btnn">
-        <div>
-          <button class="linear"> <img src="./B13-A02-TechWave/assets/spotify.png"  alt="">Listen on Spotify</button>
+        <div class="hero-btns">
+          <button class="linear"><img src="./B13-A02-TechWave/assets/spotify.png" alt=""> Listen on Spotify</button>
+          <button class="bttn"><img src="./B13-A02-TechWave/assets/message.png" alt=""> Subscribe</button>
         </div>
-        <div >
-          <button class="bttn"><img src="./B13-A02-TechWave/assets/message.png" alt="">Subscribe</button>
-        </div>
-        
-      </div>
-        
-    </div>
-   
-  </main>
-
-  <section class="back">
-    <div class="middle">
-      <h2>
-      About the Podcast
-      </h2>
-      <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
-      We break down complex topics into digestible insights, explore productivity strategies that actually work,<br>
-      and share stories of personal growth from industry leaders.
-      <br>
-      <br>
-      Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
-      <p>
-    </div>
-    <div class="line">
-
-    </div>
-
-    <div class="achive">
-      <div>
-        <h3>150k</h3>
-        <p>Monthly Listeners</p>
-      </div>
-      <div>
-        <h3>200+</h3>
-        <p>Episodes Published</p>
-      </div>
-      <div>
-        <h3>4.9 ★</h3>
-        <p>Average Rating</p>
-      </div>
-      <div>
-        <h3>50+</h3>
-        <p>Industry Experts</p>
       </div>
     </div>
   </section>
-  <section>
-      <div class="why">
-        <h3>Why Choose TechWave</h3>
-      </div>
-    <div class="card">
-      <div class="first">
+
+  
+  <section class="about">
+    <div class="about-top">
+      <h2>About the Podcast</h2>
+      <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.<br><br>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+    </div>
+    <div class="divider"></div>
+    <div class="stats">
+      <div class="stat"><h3>150K+</h3><p>Monthly Listeners</p></div>
+      <div class="stat"><h3>200+</h3><p>Episodes Published</p></div>
+      <div class="stat"><h3>4.9 ★</h3><p>Average Rating</p></div>
+      <div class="stat"><h3>50+</h3><p>Industry Experts</p></div>
+    </div>
+  </section>
+
+  
+  <section class="why-section">
+    <h2>Why Choose TechWave</h2>
+    <div class="cards">
+      <div class="card card--tall">
         <img src="./B13-A02-TechWave/assets/headphone.png" alt="">
         <h4>Premium Audio Quality</h4>
-        <p>Experience crystal-clear sound with <br> professional-grade recording <br> equipment and expert audio <br> engineering. Every episode is mastered <br> for optimal listening across all devices <br>    and platforms.</p>
+        <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
       </div>
-      <div class="second">
+      <div class="card">
         <img src="./B13-A02-TechWave/assets/device.png" alt="">
         <h4>Mobile Friendly</h4>
         <p>Listen on the go with seamless mobile experience and offline downloads.</p>
       </div>
-      <div class="third">
+      <div class="card">
         <img src="./B13-A02-TechWave/assets/location.png" alt="">
         <h4>Global Community</h4>
         <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
       </div>
-      <div class="four">
+      <div class="card">
         <img src="./B13-A02-TechWave/assets/zap-fast.png" alt="">
         <h4>Exclusive Interviews</h4>
-        <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our<br> host  secures exclusive conversations you won't find anywhere else, diving deep into their <br>journeys, failures, and success strategies.</p>
+        <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else.</p>
       </div>
-      <div class="five">
+      <div class="card">
         <img src="./B13-A02-TechWave/assets/resource.png" alt="">
         <h4>Rich Resources</h4>
-        <p>Access show notes, transcripts, and <br> additional learning materials for every <br> episode.</p>
+        <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
       </div>
     </div>
   </section>
-  <footer>
-    <div class="footerbg">
-      <div class="foot">
-        <img src="./B13-A02-TechWave/assets/TechWave.png" alt="">
+
+  
+  <section class="episodes">
+    <h2>Featured Episodes</h2>
+    <div class="episodes-grid">
+      <div class="ep-card">
+        <iframe src="https://www.youtube.com/embed/cqDQV5g7zHo" title="The Future of AI in Everyday Life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>The Future of AI in Everyday Life</h4>
+        <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+        <span class="dur">&#9679; 42 min</span>
       </div>
-      <div class="footerimg">
-        <div class="gap">
-          <p><img src="./B13-A02-TechWave/assets/spotify.png" alt="">  Spotify</p>
-        </div class="gap">
-        <div>
-            <p><img src="./B13-A02-TechWave/assets/apple-podcast.png" alt="">  Apple Podcasts</p>
-        </div>
-        <div class="gap">
-          <p><img src="./B13-A02-TechWave/assets/youtube-podcast.png" alt="">  Youtube</p>
-        </div>
-        <div class="gap">
-           <p><img src="./B13-A02-TechWave/assets/twitter.png" alt="">  Twitter</p>
-        </div>
+      <div class="ep-card">
+        <iframe width="1013" height="570" src="https://www.youtube.com/embed/kO3WtZmDb_A" title="I Tried Every All-In-One AI Video Generator (Full Comparison)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h4>Building Better Habits for Remote Work</h4>
+        <p>Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+        <span class="dur">&#9679; 35 min</span>
       </div>
-      <div class="last">
-        <p>&copy;2026 TechWave Podcast. All rights reserved.</p>
+
+
+
+      <div class="ep-card">
+        <iframe width="1013" height="570" src="https://www.youtube.com/embed/JxqFHWHVwGg" title="Top 5 AI Filmmaking Tools 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h4>Career Growth in Tech: A Roadmap</h4>
+        <p>Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+        <span class="dur">&#9679; 51 min</span>
       </div>
     </div>
-        
+  </section>
+
+  
+  <section class="host">
+    <h2>Meet The Host</h2>
+    <div class="host-card">
+      <img src="./B13-A02-TechWave/assets/host.png" alt="Alex Kumar" class="host-img">
+      <div class="host-info">
+        <h3>Alex Kumar</h3>
+        <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+        <div class="socials">
+          <span class="si">in</span>
+          <span class="si">&#120143;</span>
+          <span class="si">&#9654;</span>
+          <span class="si">&#128279;</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="./B13-A02-TechWave/assets/TechWave.png" alt="TechWave">
+      </div>
+      <div class="footer-links">
+        <p><img src="./B13-A02-TechWave/assets/spotify.png" alt=""> Spotify</p>
+        <p><img src="./B13-A02-TechWave/assets/apple-podcast.png" alt=""> Apple Podcasts</p>
+        <p><img src="./B13-A02-TechWave/assets/youtube-podcast.png" alt=""> YouTube</p>
+        <p><img src="./B13-A02-TechWave/assets/twitter.png" alt=""> Twitter</p>
+      </div>
+      <p class="footer-copy">&copy; 2026 TechWave Podcast. All rights reserved.</p>
+    </div>
   </footer>
+
 </body>
 </html>
