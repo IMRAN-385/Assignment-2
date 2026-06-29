@@ -2,12 +2,7 @@
 
 A modern and responsive podcast landing page built using **HTML5** and **CSS3**. The project follows the provided Figma design while maintaining clean code, responsive layouts, and smooth user experience across all devices.
 
----
-
-## 🚀 Live Demo
-
-- **Live Site:** https://your-live-link.com
-- **GitHub Repository:** https://github.com/your-username/techwave-podcast
+--
 
 > Replace the links above with your own.
 
